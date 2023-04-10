@@ -8,7 +8,7 @@ public class C01_PositiveOrNegative {
 /*
 1. Create a class called C01_PositiveAndNegative, and  write a program that can identify if the user entered number is
     positive, or negative or zero.
-
+//harun
             Ex:
                 number = 200
 
