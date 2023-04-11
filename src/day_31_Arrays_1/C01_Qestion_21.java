@@ -68,7 +68,7 @@ public class C01_Qestion_21 {
 
 public static int ekok(int a,int b){
         return a*b/ebob(a,b);
-        //
+        // ...
 }
 
 }
