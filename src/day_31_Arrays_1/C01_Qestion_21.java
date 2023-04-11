@@ -18,6 +18,9 @@ public class C01_Qestion_21 {
     // iki adet sayının ebobunun nulan mtodunu yapınız.
     public static void main(String[] args) {
         System.out.println(kelimeKontrol());
+        System.out.println(ebob(8, 12));
+        System.out.println(ekok(8, 12));
+
 
     }
     public static String kelimeKontrol(){
@@ -50,6 +53,21 @@ public class C01_Qestion_21 {
       return kelime1.concat(" ").concat(kelime2);
 //merhaba
     }
+    public static int ebob(int x, int y){
+        //iki adet sayının ebobunu bulan metodunu
+        // yazınız. ebob(int x, iny y){ 8-12 }
+        int result=1;
+       int min= Math.min(x,y);
+        for (int i = 1; i <=min; i++) {
+            if (x%i==0&& y%i==0){
+                result=i;
+            }
+        }
+        return result;
+    }
 
-    
+public static int ekok(int a,int b){
+        return a*b/ebob(a,b);
+}
+
 }
