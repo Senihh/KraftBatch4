@@ -48,7 +48,7 @@ public class C01_Qestion_21 {
                     if(i==3) return null;
                 }
       return kelime1.concat(" ").concat(kelime2);
-
+//merhaba
     }
 
     
