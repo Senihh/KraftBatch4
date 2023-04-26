@@ -1,6 +1,6 @@
 package _Odevler;
 
-public class odev_nisan {
+public class odev_29_Soru_String {
     public static void main(String[] args) {
 
         System.out.println(ilkUc("alimkul"));//1.soru
